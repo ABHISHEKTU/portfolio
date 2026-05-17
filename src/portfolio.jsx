@@ -391,7 +391,15 @@ function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [sent, setSent] = useState(false);
   const handle = e => setForm({ ...form, [e.target.name]: e.target.value });
-  const submit = () => { if (form.name && form.email && form.message) setSent(true); };
+ const submit = async () => {
+  if (!form.name || !form.email || !form.message) return;
+  await fetch("https://formspree.io/f/YOUR_FORM_ID", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(https://formspree.io/f/xzdwpqjz),
+  });
+  setSent(true);
+};
   const inputStyle = { width: "100%", padding: "14px 18px", background: "rgba(255,255,255,0.7)", backdropFilter: "blur(8px)", border: `1.5px solid ${T.border}`, borderRadius: "14px", color: T.text, fontSize: "15px", outline: "none", fontFamily: "inherit", boxSizing: "border-box", transition: "border-color 0.2s" };
   return (
     <section id="contact" style={{ padding: "100px 24px 140px", position: "relative", zIndex: 1 }}>
