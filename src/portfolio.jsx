@@ -391,14 +391,34 @@ function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [sent, setSent] = useState(false);
   const handle = e => setForm({ ...form, [e.target.name]: e.target.value });
- const submit = async () => {
-  if (!form.name || !form.email || !form.message) return;
-  await fetch("https://formspree.io/f/YOUR_FORM_ID", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(https://formspree.io/f/xzdwpqjz),
-  });
-  setSent(true);
+const submit = async (e) => {
+  // 1. Prevent page reload if this is called from an onSubmit event
+  if (e) e.preventDefault();
+
+  // 2. Validation check
+  if (!form.name || !form.email || !form.message) {
+    alert("Please fill in all fields.");
+    return;
+  }
+
+  // 3. The Fetch Request
+  try {
+    const response = await fetch("https://formspree.io/f/xzdwpqjz", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      // CORRECT: Send the 'form' state object
+      body: JSON.stringify(form), 
+    });
+
+    if (response.ok) {
+      setSent(true);
+      setForm({ name: "", email: "", message: "" }); // Reset form after success
+    } else {
+      alert("Something went wrong. Please try again.");
+    }
+  } catch (error) {
+    console.error("Error sending mail:", error);
+  }
 };
   const inputStyle = { width: "100%", padding: "14px 18px", background: "rgba(255,255,255,0.7)", backdropFilter: "blur(8px)", border: `1.5px solid ${T.border}`, borderRadius: "14px", color: T.text, fontSize: "15px", outline: "none", fontFamily: "inherit", boxSizing: "border-box", transition: "border-color 0.2s" };
   return (
