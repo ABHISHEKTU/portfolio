@@ -41,8 +41,8 @@ const PROJECTS = [
     emoji: "📄",
     from: "#1a73e8",
     to: "#00b4d8",
-    github: "#",
-    live: "#",
+    github: "https://github.com/ABHISHEKTU/TalentTrace",
+    live: "https://talent-trace-eight.vercel.app/",
   },
   {
     title: "Landslide Prediction System",
@@ -51,8 +51,8 @@ const PROJECTS = [
     emoji: "🏔️",
     from: "#7c3aed",
     to: "#1a73e8",
-    github: "#",
-    live: "#",
+    github: "https://github.com/ABHISHEKTU/Landslide-Prediction-System",
+    live: "https://landslide-prediction.up.railway.app/",
   },
 ];
 
@@ -496,9 +496,9 @@ function Contact() {
         <Reveal delay={0.1}>
           <div style={{ display: "flex", gap: "12px", marginBottom: "40px", flexWrap: "wrap" }}>
             {[
-              { label: "GitHub", icon: "⚙️", href: "https://github.com", color: "#24292e" },
-              { label: "LinkedIn", icon: "💼", href: "https://linkedin.com", color: "#0077b5" },
-              { label: "Email", icon: "✉️", href: "mailto:hello@dev.com", color: T.blue },
+              { label: "GitHub", icon: "⚙️", href: "https://github.com/ABHISHEKTU", color: "#24292e" },
+              { label: "LinkedIn", icon: "💼", href: "www.linkedin.com/in/abhishek-t-u-318b432a0", color: "#0077b5" },
+              { label: "Email", icon: "✉️", href: "abhishektu123@gmail.com", color: T.blue },
             ].map(s => (
               <a key={s.label} href={s.href} target="_blank" rel="noopener noreferrer" style={{
                 display: "flex", alignItems: "center", gap: "8px",
@@ -601,7 +601,7 @@ export default function Portfolio() {
         color: T.faint, fontSize: "13px",
         background: "rgba(255,255,255,0.5)", backdropFilter: "blur(10px)",
       }}>
-        Built with React · Designed with ❤️ · © 2024
+        Built with React · Designed with ❤️ · © 2026
       </footer>
 
       <style>{`
