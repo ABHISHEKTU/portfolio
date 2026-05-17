@@ -144,7 +144,7 @@ function Nav({ scrolled, active }) {
         transition: "all 0.4s cubic-bezier(.22,1,.36,1)",
       }}>
         <div style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: 800, fontSize: "20px", letterSpacing: "-0.5px", background: T.gradText, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-          ABHISHEK T U;
+          ABHISHEK T U
         </div>
 
         {/* Desktop */}
