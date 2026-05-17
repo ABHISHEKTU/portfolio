@@ -497,8 +497,8 @@ function Contact() {
           <div style={{ display: "flex", gap: "12px", marginBottom: "40px", flexWrap: "wrap" }}>
             {[
               { label: "GitHub", icon: "⚙️", href: "https://github.com/ABHISHEKTU", color: "#24292e" },
-              { label: "LinkedIn", icon: "💼", href: "www.linkedin.com/in/abhishek-t-u-318b432a0", color: "#0077b5" },
-              { label: "Email", icon: "✉️", href: "abhishektu123@gmail.com", color: T.blue },
+              { label: "LinkedIn", icon: "💼", href: "https://www.linkedin.com/in/abhishek-t-u-318b432a0/", color: "#0077b5" },
+              { label: "Email", icon: "✉️", href: "https://abhishektu123@gmail.com", color: T.blue },
             ].map(s => (
               <a key={s.label} href={s.href} target="_blank" rel="noopener noreferrer" style={{
                 display: "flex", alignItems: "center", gap: "8px",
