@@ -89,7 +89,7 @@ const CERTIFICATIONS = [
     desc: "Core AI concepts including machine learning, neural networks, and practical AI applications.",
     color: "#00b4d8",
     badge: "🧠",
-    verify: https://www.credly.com/badges/8844e8f7-1109-4849-9041-b7972a27b2bc
+    verify: "https://www.credly.com/badges/8844e8f7-1109-4849-9041-b7972a27b2bc"
   }, 
   {
     year: "July 2025",
