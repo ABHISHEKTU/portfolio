@@ -383,9 +383,9 @@ function Certifications() {
                   <p style={{ fontSize: "13px", color: item.color, fontWeight: 700, marginBottom: "10px" }}>🏢 {item.org}</p>
                   <p style={{ fontSize: "14px", color: T.muted, lineHeight: 1.65 }}>{item.desc}</p>
                   {/* Verified badge */}
-                  <div style={{ display: "inline-flex", alignItems: "center", gap: "6px", marginTop: "14px", padding: "5px 12px", borderRadius: "999px", background: "rgba(34,197,94,0.08)", border: "1px solid rgba(34,197,94,0.25)", fontSize: "12px", fontWeight: 700, color: "#16a34a" }}>
-                    ✅ Verified Certification
-                  </div>
+                <a href={item.verify || "#"} target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: "6px", marginTop: "14px", padding: "5px 12px", borderRadius: "999px", background: "rgba(34,197,94,0.08)", border: "1px solid rgba(34,197,94,0.25)", fontSize: "12px", fontWeight: 700, color: "#16a34a", textDecoration: "none" }}>
+  ✅ Verify Certificate ↗
+</a>
                 </div>
               </div>
             </Reveal>
