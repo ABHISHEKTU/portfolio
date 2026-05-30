@@ -72,6 +72,15 @@ const EDUCATION = [
 
 const CERTIFICATIONS = [
   {
+  year: "May 2026",
+  title: "Docker Essentials: A Developer Introduction",
+  org: "IBM · Cognitive Class (cognitiveclass.ai)",
+  desc: "Containerization fundamentals, Docker images, containers, and developer workflows powered by IBM Developer Skills Network.",
+  color: "#0db7ed",
+  badge: "🐳",
+  verify: "https://courses.cognitiveclass.ai/certificates/837616418e894363b5e8110c81567903",
+},
+  {
     year: "July 2025",
     title: "Agentic AI Agent Architect",
     org: "IBM SkillsBuild",
@@ -86,7 +95,7 @@ const CERTIFICATIONS = [
     desc: "Core AI concepts including machine learning, neural networks, and practical AI applications.",
     color: "#00b4d8",
     badge: "🧠",
-  },
+  }, 
 ];
 
 function useInView(threshold = 0.15) {
