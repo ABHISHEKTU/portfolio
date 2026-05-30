@@ -21,6 +21,7 @@ const SKILLS = [
   { name: "React", icon: "⚛️", color: "#61DAFB" },
   { name: "Machine Learning", icon: "🤖", color: "#FF6F00" },
   { name: "NLP", icon: "🧠", color: "#7c3aed" },
+  { name: "Docker", icon: "🐳", color: "#0db7ed" },
   { name: "CNN / ResNet", icon: "🔬", color: "#F7931E" },
   { name: "PostgreSQL", icon: "🗄️", color: "#336791" },
   { name: "REST APIs", icon: "🔗", color: "#00b4d8" },
@@ -28,6 +29,7 @@ const SKILLS = [
   { name: "Git & GitHub", icon: "🌿", color: "#F05032" },
   { name: "Node.js", icon: "🟩", color: "#68A063" },
   { name: "LLM Integration", icon: "✨", color: "#7c3aed" },
+  
 ];
 
 const PROJECTS = [
