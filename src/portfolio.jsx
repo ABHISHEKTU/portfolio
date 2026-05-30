@@ -82,6 +82,15 @@ const CERTIFICATIONS = [
   badge: "🐳",
   verify: "https://courses.cognitiveclass.ai/certificates/837616418e894363b5e8110c81567903",
 },
+    {
+    year: "July 2025",
+    title: "Artificial Intelligence Fundamentals",
+    org: "IBM",
+    desc: "Core AI concepts including machine learning, neural networks, and practical AI applications.",
+    color: "#00b4d8",
+    badge: "🧠",
+    verify: https://www.credly.com/badges/8844e8f7-1109-4849-9041-b7972a27b2bc
+  }, 
   {
     year: "July 2025",
     title: "Agentic AI Agent Architect",
@@ -90,14 +99,6 @@ const CERTIFICATIONS = [
     color: "#1a73e8",
     badge: "🤖",
   },
-  {
-    year: "July 2025",
-    title: "Artificial Intelligence Fundamentals",
-    org: "IBM",
-    desc: "Core AI concepts including machine learning, neural networks, and practical AI applications.",
-    color: "#00b4d8",
-    badge: "🧠",
-  }, 
 ];
 
 function useInView(threshold = 0.15) {
