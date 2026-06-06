@@ -22,6 +22,7 @@ const SKILLS = [
   { name: "Machine Learning", icon: "🤖", color: "#FF6F00" },
   { name: "NLP", icon: "🧠", color: "#7c3aed" },
   { name: "Docker", icon: "🐳", color: "#0db7ed" },
+  { name: "Kubernetes", icon: "☸️", color: "#326CE5" },
   { name: "CNN / ResNet", icon: "🔬", color: "#F7931E" },
   { name: "PostgreSQL", icon: "🗄️", color: "#336791" },
   { name: "REST APIs", icon: "🔗", color: "#00b4d8" },
@@ -81,6 +82,15 @@ const CERTIFICATIONS = [
   color: "#0db7ed",
   badge: "🐳",
   verify: "https://courses.cognitiveclass.ai/certificates/837616418e894363b5e8110c81567903",
+},
+  {
+  year: "June 2026",
+  title: "Introduction to Containers, Kubernetes, and OpenShift",
+  org: "IBM · Cognitive Class (cognitiveclass.ai)",
+  desc: "Container orchestration, Kubernetes clusters, and OpenShift deployment powered by IBM Developer Skills Network.",
+  color: "#326CE5",
+  badge: "☸️",
+  verify: "https://courses.cognitiveclass.ai/certificates/27029c9a93944b208dbb3d833f8fca16",
 },
     {
     year: "July 2025",
