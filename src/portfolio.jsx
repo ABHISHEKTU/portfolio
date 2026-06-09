@@ -16,6 +16,9 @@ const T = {
 const NAV = ["About", "Skills", "Projects", "Education", "Certifications", "Contact"];
 
 const SKILLS = [
+  { name: "PyTorch", icon: "🔥", color: "#EE4C2C" },
+  { name: "FastAPI", icon: "⚡", color: "#009688" },
+  { name: "LangChain", icon: "🦜", color: "#1C3C3C" },
   { name: "Python", icon: "🐍", color: "#3776AB" },
   { name: "Django", icon: "🎸", color: "#092E20" },
   { name: "React", icon: "⚛️", color: "#61DAFB" },
@@ -34,6 +37,16 @@ const SKILLS = [
 ];
 
 const PROJECTS = [
+  {
+  title: "Medical Image Diagnosis Assistant",
+  desc: "Fine-tuned ResNet50 CNN on 5,216 chest X-rays achieving 85.9% accuracy & 0.94 AUC-ROC. Features Grad-CAM explainability, RAG pipeline with FAISS + Llama3 for diagnostic reports, and MLflow experiment tracking — containerized with Docker.",
+  tags: ["PyTorch", "ResNet50", "FastAPI", "React", "FAISS", "LangChain", "Docker", "MLflow"],
+  emoji: "🏥",
+  from: "#00b4d8",
+  to: "#22c55e",
+  github: "https://github.com/ABHISHEKTU/medical-diagnosis-assistant",
+  live: "https://medical-diagnosis-assistant-gilt.vercel.app/",
+},
   {
     title: "TalentTrace – AI Resume Screener",
     desc: "AI-powered recruitment platform that analyzes resumes against job descriptions using NLP. Features resume parsing, keyword matching, skill gap analysis, and a full dashboard with scoring & analytics.",
