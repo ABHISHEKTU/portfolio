@@ -88,6 +88,15 @@ const EDUCATION = [
 
 const CERTIFICATIONS = [
   {
+  year: "July 2026",
+  title: "Software Engineering Job Simulation",
+  org: "Quantium · Forage",
+  desc: "Hands-on software engineering simulation covering real-world tasks in data analysis, problem solving, and engineering workflows used at Quantium.",
+  color: "#8B5CF6",
+  badge: "💼",
+  verify: "https://www.theforage.com/completion-certificates/32A6DqtsbF7LbKdcq/jhiG2W9K8KLZK8nXP_32A6DqtsbF7LbKdcq_6a5481e6f39d9bdef2f84e4b_1784113280625_completion_certificate.pdf",
+},
+  {
   year: "May 2026",
   title: "Docker Essentials: A Developer Introduction",
   org: "IBM · Cognitive Class (cognitiveclass.ai)",
