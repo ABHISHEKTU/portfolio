@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 
 const education = [
-  { degree: "MCA", school: "Cochin University College of Engineering Kuttanad (CUSAT)", year: "2026", note: "76% aggregate" },
+  { degree: "MCA", school: "Cochin University College of Engineering Kuttanad (CUSAT)", year: "2024 - 2026", note: "76% aggregate" },
   { degree: "BSc Physics", school: "Sree Krishna College, Guruvayoor (University of Calicut)", year: "2020 – 2024" },
 ];
 

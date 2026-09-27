@@ -51,8 +51,10 @@ export default function Home() {
             >
               View Projects
             </a>
+            
             <a
-              href="/resume.pdf"
+              href="https://drive.google.com/file/d/1hnFIq4XroHSoBtEVlRzNfv4T1kA12boF/view"
+              target="_blank"
               className="px-6 py-3 rounded-full border border-foreground/30 hover:border-accent-cyan transition"
             >
               Resume
