@@ -3,10 +3,10 @@
 import { motion } from "framer-motion";
 
 const certs = [
-     { name: "Foundations Associate — Agentic AI", issuer: "Oracle University", year: "2026" }
+     { name: "Foundations Associate — Agentic AI", issuer: "Oracle University", year: "2026" },
   { name: "Agentic AI Agent Architect", issuer: "IBM", year: "2025" },
   { name: "Docker Essentials", issuer: "Cognitive Class", year: "2026" },
-   {name: "Containers, Kubernetes & OpenShift", issuer: "Cognitive Class", year: "2026" }
+   {name: "Containers, Kubernetes & OpenShift", issuer: "Cognitive Class", year: "2026" },
   { name: "AI Fundamentals", issuer: "IBM", year: "2025" },
 ];
 
