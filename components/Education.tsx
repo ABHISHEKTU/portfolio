@@ -25,8 +25,8 @@ export default function Education() {
             key={e.degree}
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: i * 0.1 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.5, delay: 0.1, ease: "easeOut" }}
             className="rounded-2xl border border-foreground/10 bg-foreground/5 p-6 flex justify-between flex-wrap gap-2"
           >
             <div>

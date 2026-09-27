@@ -61,12 +61,18 @@ export default function Home() {
         </motion.div>
       </div>
       <About />
-      <Stack />
-      <Projects />
-      <Experience />
-      <Education />
-      <Certifications />
-      <Contact />
+<div className="section-divider" />
+<Stack />
+<div className="section-divider" />
+<Projects />
+<div className="section-divider" />
+<Experience />
+<div className="section-divider" />
+<Education />
+<div className="section-divider" />
+<Certifications />
+<div className="section-divider" />
+<Contact />
     </main>
   </>
 );

@@ -21,8 +21,8 @@ export default function Projects() {
             key={p.title}
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: i * 0.1 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.5, delay: 0.1, ease: "easeOut" }}
             className="rounded-2xl border border-foreground/10 bg-foreground/5 p-6 hover:border-accent-cyan/50 transition"
           >
             <h3 className="text-lg font-semibold mb-2">{p.title}</h3>

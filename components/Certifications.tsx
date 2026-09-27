@@ -3,11 +3,11 @@
 import { motion } from "framer-motion";
 
 const certs = [
+     { name: "Foundations Associate — Agentic AI", issuer: "Oracle University", year: "2026" }
   { name: "Agentic AI Agent Architect", issuer: "IBM", year: "2025" },
-  { name: "AI Fundamentals", issuer: "IBM", year: "2025" },
   { name: "Docker Essentials", issuer: "Cognitive Class", year: "2026" },
-  { name: "Containers, Kubernetes & OpenShift", issuer: "Cognitive Class", year: "2026" },
-  { name: "Foundations Associate — Agentic AI", issuer: "Oracle University", year: "2026" },
+   {name: "Containers, Kubernetes & OpenShift", issuer: "Cognitive Class", year: "2026" }
+  { name: "AI Fundamentals", issuer: "IBM", year: "2025" },
 ];
 
 export default function Certifications() {
@@ -16,7 +16,7 @@ export default function Certifications() {
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
+        viewport={{ once: true, margin: "-100px" }}
         style={{ fontFamily: "var(--font-display)" }}
         className="text-3xl md:text-4xl font-bold mb-10 text-center"
       >
@@ -29,7 +29,7 @@ export default function Certifications() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ delay: i * 0.05 }}
+            transition={{ duration: 0.5, delay: 0.1, ease: "easeOut" }}
             className="rounded-2xl border border-foreground/10 bg-foreground/5 p-5"
           >
             <h3 className="font-medium text-sm">{c.name}</h3>
