@@ -30,6 +30,12 @@ export default function Contact() {
         transition={{ duration: 0.5, delay: 0.1, ease: "easeOut" }}
         className="flex flex-wrap gap-4 justify-center"
       >
+     <a   
+  href="tel:+917594009262"
+  className="px-6 py-3 rounded-full border border-foreground/30 hover:border-accent-cyan transition"
+>
+  +91 75940 09262
+</a>
         <a
           href="mailto:abhishektu123@gmail.com"
           className="px-6 py-3 rounded-full bg-accent-cyan text-black font-medium hover:opacity-80 transition"

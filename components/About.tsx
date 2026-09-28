@@ -34,12 +34,23 @@ export default function About() {
           >
             About
           </h2>
-          <p className="text-foreground/70 leading-relaxed">
-            MCA graduate from CUSAT, Kerala, with a BSc Physics background.
-            Focused on AI/ML and full-stack engineering — building deployed,
-            production-style projects rather than tutorials. Comfortable
-            across the stack: model pipelines, APIs, and frontend delivery.
-          </p>
+           <div className="space-y-4 text-foreground/70 leading-relaxed">
+  <p>
+    MCA graduate from CUSAT (2026) with a BSc in Physics. I build AI/ML and
+    full-stack systems that actually ship, not tutorial clones.
+  </p>
+  <p>
+    Recent work: a drift-detection API for deployed ML models, a
+    Celery/Redis sentiment pipeline running as five Docker services, a
+    Shopify–Odoo integration with live webhooks, and a RAG-based medical
+    image diagnosis assistant. I have also delivered production work as a
+    freelance developer for a Dubai-based client.
+  </p>
+  <p>
+    Looking for fresher AI/ML and full-stack roles. Open to relocation
+    anywhere in India.
+  </p>
+</div>
         </div>
       </motion.div>
     </section>
